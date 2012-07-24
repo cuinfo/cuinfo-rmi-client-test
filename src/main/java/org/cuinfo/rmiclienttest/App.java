@@ -47,6 +47,7 @@ public class App {
             print(u);
         }
         LOG.info("用时：" +(new Date().getTime()-startTime.getTime()));
+         LOG.info("=======================successful!=====================");
     }
 
     private static void print(User u) {
